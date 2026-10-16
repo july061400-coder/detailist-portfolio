@@ -21,6 +21,8 @@ h1,h2,h3,p{margin:0}
 .work-grid--four{grid-template-columns:repeat(4,minmax(0,1fr))}
 .work-grid--four .work-image{height:auto;aspect-ratio:4/5}
 .work-grid--four .work-info h2{font-size:clamp(23px,2.1vw,30px)}
+.work-grid--five .work-image{height:auto;aspect-ratio:4/5}
+.work-grid--five .work-info h2{font-size:clamp(23px,2.1vw,30px)}
 .work-card.supplement .work-image img{object-position:center center}
 .work-card{display:block;min-width:0;transition:transform .25s ease}
 .work-card:hover{transform:translateY(-5px)}
