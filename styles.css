@@ -25,6 +25,11 @@ h1,h2,h3,p{margin:0}
 .work-grid--five .work-info h2{font-size:clamp(23px,2.1vw,30px)}
 .work-grid--six .work-image{height:auto;aspect-ratio:4/5}
 .work-grid--six .work-info h2{font-size:clamp(23px,2.1vw,30px)}
+.work-grid--seven .headphones{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;align-items:center;background:#e8edf0}
+.work-grid--seven .headphones .work-image{aspect-ratio:4/3;background:#272b2e}
+.work-grid--seven .headphones .work-image img{object-fit:contain}
+.work-grid--seven .headphones .work-info{padding:32px 44px;border:0}
+.work-grid--seven .headphones .work-info h2{font-size:clamp(27px,3vw,42px);line-height:1.25;margin:22px 0 18px}
 .work-card.supplement .work-image img{object-position:center center}
 .work-card{display:block;min-width:0;transition:transform .25s ease}
 .work-card:hover{transform:translateY(-5px)}
@@ -65,3 +70,5 @@ h1,h2,h3,p{margin:0}
 .sample-banner span{font-size:11px;color:#e5cbd0}
 .retired-page{padding-top:15vh;padding-bottom:10vh}.retired-page h1{font-size:clamp(36px,6vw,72px);line-height:1.2;margin:24px 0}.retired-page p{margin:24px 0 32px}
 @media(max-width:420px){.header-note{font-size:9px;letter-spacing:.04em}.sample-banner{padding:13px 14px;font-size:11px}.sample-banner span{font-size:9px}.project-intro .project-title--wide{font-size:38px}}
+@media(max-width:900px){.work-grid--seven .headphones .work-info{padding:26px}}
+@media(max-width:620px){.work-grid--seven .headphones{display:block}.work-grid--seven .headphones .work-image{aspect-ratio:4/5}.work-grid--seven .headphones .work-info{padding:23px 20px 28px}.work-grid--seven .headphones .work-info h2{font-size:28px;margin:17px 0 12px}}
